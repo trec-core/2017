@@ -1,10 +1,14 @@
 # TREC 2017 Core Track
 
-### Coordinators:
+### Coordinators
 
-Evangelos Kanoulas (e.kanoulas@uva.nl), University of Amsterdam
-James Allan (allan@cs.umass.edu), University of Massachusetts
-Donna Harman (donna.harman@nist.gov), NIST 
+* Evangelos Kanoulas (e.kanoulas@uva.nl), University of Amsterdam
+* James Allan (allan@cs.umass.edu), University of Massachusetts
+* Donna Harman (donna.harman@nist.gov), NIST 
+
+### Mailing list
+
+* https://groups.google.com/d/forum/trec-core
 
 ## INTRODUCTION
 The primary goals of the proposed core track are three-fold: (a) to bring together the community in a common track that could lead to a diverse set of participating runs, (b) to build one or more new test collections using more recently created documents, and (c) to establish a (new) test collection construction methodology that avoids the pitfalls of depth-k pooling.
