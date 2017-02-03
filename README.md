@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# TREC 2017 Core Track
 
-You can use the [editor on GitHub](https://github.com/trec-core/2017/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Coordinators:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Evangelos Kanoulas (e.kanoulas@uva.nl), University of Amsterdam
+James Allan (allan@cs.umass.edu), University of Massachusetts
+Donna Harman (donna.harman@nist.gov), NIST 
 
-### Markdown
+## INTRODUCTION
+The primary goals of the proposed core track are three-fold: (a) to bring together the community in a common track that could lead to a diverse set of participating runs, (b) to build one or more new test collections using more recently created documents, and (c) to establish a (new) test collection construction methodology that avoids the pitfalls of depth-k pooling.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+As a side goal the track intends to: 
+1. study the shortcomings of test collections constructed in the past
+2. experiment with new ideas for constructing test collections
+3. expand existing test collections in a number of dimensions:
+   * new participant tasks (ad-hoc/interactive)
+   * new relevance judgments (binary/multilevel)
+   * new pooling methods
+   * new assessment resources (NIST / Crowd+NIST)
+   * new retrieval systems contributing documents (Manual/Neural/Strong baselines)
 
-```markdown
-Syntax highlighted code block
+## TRACK TASK
+The participants task will be ad-hoc search. Automatic and manual runs are encouraged. The organizers of the track will provide participants with a task (title/description/narrative of TREC topics) and allow participating sites to run the experiment as they wish as long as they contribute a ranked list of documents as an output.
 
-# Header 1
-## Header 2
-### Header 3
+## DATA AND RESOURCES
 
-- Bulleted
-- List
+**Collection**: NYTimes corpus (https://catalog.ldc.upenn.edu/ldc2008t19) – Cost: $300
 
-1. Numbered
-2. List
+**Queries**: A subset of the TREC Robust queries from the Robust track.
 
-**Bold** and _Italic_ and `Code` text
+**Relevance Assessments**:
+1. NIST assessors (~50 queries)
+2. Crowdsourcing (~350 queries)
 
-[Link](url) and ![Image](src)
-```
+## ASSESSMENT AND EVALUATION
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Evaluation**: Participating runs will be evaluated in terms of unique relevant documents they contribute to the pool. Contributing irrelevant documents will be penalized. A suitable evaluation measure will be determined.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/trec-core/2017/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## TIMETABLE
+TBD
