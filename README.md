@@ -13,7 +13,7 @@
 ## INTRODUCTION
 The primary goals of the proposed core track are three-fold: (a) to bring together the community in a common track that could lead to a diverse set of participating runs, (b) to build one or more new test collections using more recently created documents, and (c) to establish a (new) test collection construction methodology that avoids the pitfalls of depth-k pooling.
 
-As a side goal the track intends to: 
+As a side goal the track intends to:
 1. study the shortcomings of test collections constructed in the past
 2. experiment with new ideas for constructing test collections
 3. expand existing test collections in a number of dimensions:
@@ -34,7 +34,7 @@ The participants task will be ad-hoc search. Automatic and manual runs are encou
 
 **Relevance Assessments**:
 1. NIST assessors (~50 queries)
-2. Crowdsourcing (~350 queries)
+2. Crowdsourcing (~200 queries)
 
 ## ASSESSMENT AND EVALUATION
 
