@@ -3,7 +3,7 @@
 ### TIMETABLE
 + Collection available to participants: February, 2017
 + Topics available to participants: April 30, 2017
-+ The evaluation measure 
++ The evaluation measure will be decided: May 7, 2017
 + Runs due from participants: May 31, 2017
 + TREC 2017 notebook paper deadline: mid-October
 + TREC 2017 conference: November 14 - 17, 2017
