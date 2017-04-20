@@ -1,10 +1,12 @@
 # TREC 2017 Core Track
 
-### Coordinators
-
-* Evangelos Kanoulas (e.kanoulas@uva.nl), University of Amsterdam
-* James Allan (allan@cs.umass.edu), University of Massachusetts
-* Donna Harman (donna.harman@nist.gov), NIST 
+### TIMETABLE
++ Collection available to participants: February, 2017
++ Topics available to participants: April 30, 2017
++ The evaluation measure 
++ Runs due from participants: May 31, 2017
++ TREC 2017 notebook paper deadline: mid-October
++ TREC 2017 conference: November 14 - 17, 2017
 
 ### Mailing list
 
@@ -38,7 +40,10 @@ The participants task will be ad-hoc search. Automatic and manual runs are encou
 
 ## ASSESSMENT AND EVALUATION
 
-**Evaluation**: Participating runs will be evaluated in terms of unique relevant documents they contribute to the pool. Contributing irrelevant documents will be penalized. A suitable evaluation measure will be determined.
+**Evaluation**: Participating runs will be evaluated in terms of (a) their ability to rank relevant documents at the top of the returned list, and (b) their ability to contribute unique relevant documents to the pool. A suitable evaluation measure will be determined.
 
-## TIMETABLE
-TBD
+### Coordinators
+
+* Evangelos Kanoulas (e.kanoulas@uva.nl), University of Amsterdam
+* James Allan (allan@cs.umass.edu), University of Massachusetts
+* Donna Harman (donna.harman@nist.gov), NIST 
