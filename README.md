@@ -51,12 +51,14 @@ The participants task will be ad-hoc search. Automatic and manual runs are encou
        30 Q0 ZF08-312-422  3 4194 prise1
        30 Q0 ZF08-013-262  4 4189 prise1
        etc.
-    where:
-+ the first column is the topic number.
-+ the second column is the query number within that topic.  This is currently unused and should always be Q0.
-+ the third column is the official document number of the retrieved document and is the number found in the "docno" field of the document.
-+ the fourth column is the rank the document is retrieved, and the fifth column shows the score (integer or floating point) that generated the ranking.  This score must be in descending (non-increasing) order and is important to include so that we can handle tied scores (for a given run) in a uniform fashion (trec_eval sorts documents by these scores, not your ranks).
-+ the sixth column is called the "run tag" and should be an unique identifier for your group AND for the method used. That is, each run should have a different tag that identifies the group and the method that produced the run. 
+
+where:
+  + the first column is the topic number.
+  + the second column is the query number within that topic.  This is currently unused and should always be Q0.
+  + the third column is the official document number of the retrieved document and is the number found in the "docno" field of the document.
+  + the fourth column is the rank the document is retrieved,
+  + the fifth column shows the score (integer or floating point) that generated the ranking.  This score must be in descending (non-increasing) order and is important to include so that we can handle tied scores (for a given run) in a uniform fashion (trec_eval sorts documents by these scores, not your ranks).
+  + the sixth column is called the "run tag" and should be an unique identifier for your group AND for the method used. That is, each run should have a different tag that identifies the group and the method that produced the run. 
 
 5. NIST will release a routine that checks for common errors in the result files including duplicate document numbers for the same topic nvalid document numbers, wrong format, and duplicate tags across runs. This routine will be made available to participants to check their runs for errors prior to submitting them.  Submitting runs is an automatic process done through a web form, and runs that contain errors cannot be processed.
 
