@@ -38,6 +38,28 @@ The participants task will be ad-hoc search. Automatic and manual runs are encou
 1. NIST assessors (~50 queries)
 2. Crowdsourcing (~200 queries)
 
+### SUBMISSION GUIDELINES
+
+1. System data structures (such as dictionaries, indices, thesauri, etc. whether constructed by hand or automatically) can be built using existing documents, topics, and relevance judgments, but these structures may not be modified in response to the new test topics.  For example, you can't add topic words that are not in your dictionary, nor may the system data structures be based in any way on the results of retrieving documents for the test topics and having a human look at the retrieved documents. A corollary of this rule is that your system may not be tuned to the TREC 2017 topics.
+2. There are many possible methods for converting the supplied topic into queries that your system can execute. TREC defines two broad categories of methods, "automatic" and "manual", based on whether manual intervention is used. Automatic construction is when there is no human involvement of any sort in the query construction process; manual construction is everything else. Note that this is a very broad definition of manual construction, including both runs in which the queries are constructed manually and then run without looking at the results, and runs in which the results are used to alter the queries using some manual operation.
+3. The result of a run is generally a ranking of the top 1000 documents retrieved for each topic.  You may submit fewer than 1000 documents for a topic, but the ranked retrieval evaluation measures used in TREC evaluate to 1000 and count empty ranks as irrelevant (so your score cannot be hurt by returning 1000 documents). Similarly, systems that do not rank documents perform poorly as evaluated by these measures. Note that trec_eval evaluates a run based strictly on scores, not on the ranks you assign in your submission. If you want the precise ranking you submit to be evaluated, the scores must reflect it.
+4. The format to use when submitting ranked results is as follows, using a space as the delimiter between columns.  The width of the columns in the format is not important, but it is important to include all columns and have some amount of white space between the columns.
+
+       30 Q0 ZF08-175-870  0 4238 prise1
+       30 Q0 ZF08-306-044  1 4223 prise1
+       30 Q0 ZF09-477-757  2 4207 prise1
+       30 Q0 ZF08-312-422  3 4194 prise1
+       30 Q0 ZF08-013-262  4 4189 prise1
+       etc.
+    where:
++ the first column is the topic number.
++ the second column is the query number within that topic.  This is currently unused and should always be Q0.
++ the third column is the official document number of the retrieved document and is the number found in the "docno" field of the document.
++ the fourth column is the rank the document is retrieved, and the fifth column shows the score (integer or floating point) that generated the ranking.  This score must be in descending (non-increasing) order and is important to include so that we can handle tied scores (for a given run) in a uniform fashion (trec_eval sorts documents by these scores, not your ranks).
++ the sixth column is called the "run tag" and should be an unique identifier for your group AND for the method used. That is, each run should have a different tag that identifies the group and the method that produced the run. 
+
+5. NIST will release a routine that checks for common errors in the result files including duplicate document numbers for the same topic nvalid document numbers, wrong format, and duplicate tags across runs. This routine will be made available to participants to check their runs for errors prior to submitting them.  Submitting runs is an automatic process done through a web form, and runs that contain errors cannot be processed.
+
 ### ASSESSMENT AND EVALUATION
 
 **Evaluation**: Participating runs will be evaluated in terms of (a) their ability to rank relevant documents at the top of the returned list, and (b) their ability to contribute unique relevant documents to the pool. A suitable evaluation measure will be determined.
