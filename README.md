@@ -67,7 +67,9 @@ NIST will release a routine that checks for common errors in the result files in
 
 ### ASSESSMENT AND EVALUATION
 
-**Evaluation**: Participating runs will be evaluated in terms of (a) their ability to rank relevant documents at the top of the returned list, and (b) their ability to contribute unique relevant documents to the pool. A suitable evaluation measure will be determined.
+**Assessment**: The method runs will be pooled and documents will be assessed is TBD.
+
+**Evaluation**: Participating runs will be evaluated in terms of (a) their ability to rank relevant documents at the top of the returned list, and (b) their ability to contribute unique relevant documents to the pool. A exact evaluation measure/method is TBD.
 
 ### Coordinators
 
