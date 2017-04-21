@@ -8,7 +8,7 @@
 + Collection available to participants: February, 2017
 + Topics available to participants: April 30, 2017
 + The evaluation measure will be decided: May 7, 2017
-+ Runs due from participants: May 31, 2017
++ Runs due from participants: June 19, 2017
 + TREC 2017 notebook paper deadline: mid-October
 + TREC 2017 conference: November 14 - 17, 2017
 
@@ -44,7 +44,7 @@ System data structures (such as dictionaries, indices, thesauri, etc. whether co
 
 There are many possible methods for converting the supplied topic into queries that your system can execute. TREC defines two broad categories of methods, "automatic" and "manual", based on whether manual intervention is used. Automatic construction is when there is no human involvement of any sort in the query construction process; manual construction is everything else. Note that this is a very broad definition of manual construction, including both runs in which the queries are constructed manually and then run without looking at the results, and runs in which the results are used to alter the queries using some manual operation.
 
-The result of a run is generally a ranking of the top 1000 documents retrieved for each topic.  You may submit fewer than 1000 documents for a topic, but the ranked retrieval evaluation measures used in TREC evaluate to 1000 and count empty ranks as irrelevant (so your score cannot be hurt by returning 1000 documents). Similarly, systems that do not rank documents perform poorly as evaluated by these measures. Note that trec_eval evaluates a run based strictly on scores, not on the ranks you assign in your submission. If you want the precise ranking you submit to be evaluated, the scores must reflect it.
+The result of a run is generally a ranking of the top **10,000** documents retrieved for each topic.  You may submit fewer than 1000 documents for a topic, but the ranked retrieval evaluation measures used in TREC evaluate to **10000** and count empty ranks as irrelevant (so your score cannot be hurt by returning **10,000** documents). Similarly, systems that do not rank documents perform poorly as evaluated by these measures. Note that trec_eval evaluates a run based strictly on scores, not on the ranks you assign in your submission. If you want the precise ranking you submit to be evaluated, the scores must reflect it.
 
 The format to use when submitting ranked results is as follows, using a space as the delimiter between columns.  The width of the columns in the format is not important, but it is important to include all columns and have some amount of white space between the columns.
 
