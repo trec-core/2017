@@ -6,8 +6,8 @@
 
 ### TIMETABLE
 + Collection available to participants: February, 2017 [Done]
-+ Topics available to participants: April 30, 2017
-+ The evaluation measure will be decided: May 7, 2017
++ Topics available to participants: ~~April 30, 2017~~ Beginning of May
++ The evaluation measure will be decided: ~~May 7, 2017~~ Beginning of May
 + Phase 1 runs due from participants: June 18, 2017
 + Phase 2 runs due from participants: July 31, 2017
 + TREC 2017 notebook paper deadline: mid-October
