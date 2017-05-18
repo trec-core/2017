@@ -33,7 +33,11 @@ The participants task will be ad-hoc search. Automatic and manual runs are encou
 
 **Collection**: NYTimes corpus (https://catalog.ldc.upenn.edu/ldc2008t19) – Cost: $300
 
-**Queries**: A subset of the TREC Robust queries from the Robust track.
+**Topics**: The topics provided are the TREC Robust Track topics. Most of the topics have have remained the same but some have been revised to reflect the time past (e.g. some descriptions and narratives were turned into historical topics, while others were brought up todate).
+
+There are two sets of topics:
+1. Topics to be judged by [NIST](github.com/trec-core/core_nist.txt)
+2. Topics to be judged by [crowd workers](github.com/trec-core/core_crowd.txt)
 
 **Relevance Assessments**:
 1. NIST assessors (~50 queries)
