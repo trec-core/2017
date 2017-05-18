@@ -36,8 +36,10 @@ The participants task will be ad-hoc search. Automatic and manual runs are encou
 **Topics**: The topics provided are the TREC Robust Track topics. Most of the topics have have remained the same but some have been revised to reflect the time past (e.g. some descriptions and narratives were turned into historical topics, while others were brought up todate).
 
 There are two sets of topics:
-1. Topics to be judged by [NIST](https://trec-core.github.io/2017/core_nist.txt)
-2. Topics to be judged by [crowd workers](https://trec-core.github.io/2017/core_crowd.txt)
+1. Topics to be judged by NIST (and crowd workers)
+2. Topics to be judged by crowd workers only
+
+Submission should either be either on the 50 topics to be judged by NIST or on all 250 topics to be judged by crowd workers. Any other combination of topics will be considered invalid.
 
 **Relevance Assessments**:
 1. NIST assessors (~50 queries)
