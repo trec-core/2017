@@ -6,7 +6,7 @@
 
 ### TIMETABLE
 + Collection available to participants: February, 2017 [Done]
-+ Topics available to participants: ~~April 30, 2017~~ Beginning of May
++ Topics available to participants: ~~April 30, 2017~~ Beginning of May [Done]
 + The evaluation measure will be decided: ~~May 7, 2017~~ Beginning of May
 + Phase 1 runs due from participants: June 18, 2017
 + Phase 2 runs due from participants: July 31, 2017
