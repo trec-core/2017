@@ -6,9 +6,9 @@
 
 ### TIMETABLE
 + Collection available to participants: February, 2017 [Done]
-+ Topics available to participants: ~~April 30, 2017~~ Beginning of May [Done]
-+ The evaluation measure will be decided: ~~May 7, 2017~~ Beginning of May
-+ Phase 1 runs due from participants: June 18, 2017
++ Topics available to participants: Beginning of May [Done]
++ The evaluation measure will be decided: Beginning of May [Done]
++ Phase 1 runs due from participants: June 18, 2017 [Done]
 + Phase 2 runs due from participants: July 31, 2017
 + TREC 2017 notebook paper deadline: mid-October
 + TREC 2017 conference: November 14 - 17, 2017
@@ -42,8 +42,8 @@ There are two sets of topics:
 Submission should either be either on the 50 topics to be judged by NIST or on all 250 topics to be judged by crowd workers. Any other combination of topics will be considered invalid.
 
 **Relevance Assessments**:
-1. NIST assessors (~50 queries)
-2. Crowdsourcing (~200 queries)
+1. NIST assessors (50 queries)
+2. Crowdsourcing (250 queries)
 
 ### SUBMISSION GUIDELINES
 
